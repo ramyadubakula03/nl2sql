@@ -53,13 +53,6 @@ Get your API key at: https://console.anthropic.com
 - "Which products have low stock?"
 - "Show all pending orders"
 
-## Resume Bullets
-
-- Built a natural language to SQL query engine using the Claude API, converting plain English questions into executable SQLite queries with schema-aware prompting
-- Implemented a rule-based fallback system for offline operation, handling 15+ common query patterns without LLM dependency
-- Designed a full-stack web dashboard with live SQL execution, syntax highlighting, query history, and schema explorer
-- Engineered a structured prompting system with few-shot examples and schema injection, achieving high SQL accuracy on a 4-table analytics database
-
 ## Tech Stack
 Python 3, Flask, SQLite, Claude API (Anthropic), requests
 Production path: Azure OpenAI, Azure SQL, Microsoft Fabric, Power BI
